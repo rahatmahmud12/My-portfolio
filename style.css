@@ -10,6 +10,7 @@ h1{
 }
 section{
     display: flex;
+    margin-bottom: 100px;
 }
 .width{
     width: 45%;
@@ -29,4 +30,24 @@ section{
     background-image: url(images/top-banner.png);
     width: fit-content;
     background-repeat: no-repeat;
+}
+.big-dream{
+    display: flex;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.snd-div{
+    width: 110%;
+    padding: 10px 15px 20px 35px;
+}
+.snd-div img{
+    width: 80%;
+}
+.resume{
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 15px;
 }
